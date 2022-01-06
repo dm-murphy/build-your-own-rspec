@@ -19,3 +19,7 @@ end
 def eq(expected_output)
   expected_output
 end
+
+def it(description)
+  yield
+end
