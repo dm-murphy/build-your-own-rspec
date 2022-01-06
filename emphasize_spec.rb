@@ -4,4 +4,6 @@ def emphasize(text)
   "#{text.upcase}!"
 end
 
-expect(emphasize('hello')).to eq('goodbye!')
+it 'makes the text uppercase and adds an exclamation point' do
+  expect(emphasize('hello')).to eq('goodbye!')
+end
